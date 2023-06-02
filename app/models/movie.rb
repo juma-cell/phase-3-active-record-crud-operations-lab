@@ -1,5 +1,3 @@
-require 'active_record'
-
 class Movie < ActiveRecord::Base
   # Establish the database connection (e.g., using SQLite)
   ActiveRecord::Base.establish_connection(
